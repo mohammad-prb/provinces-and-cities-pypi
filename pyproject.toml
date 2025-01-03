@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "provinces-and-cities"
+version = "1.0.0"
+authors = [
+  { name="Mohammad Pourbehzad", email="pspipm27@gmail.com" },
+]
+description = "Package of countries provinces and cities"
+keywords = ["provinces", "province", "cities", "city", "iran", "germany"]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mohammad-prb/provinces-and-cities-pypi"
+Issues = "https://github.com/mohammad-prb/provinces-and-cities-pypi/issues"
+Repository = "https://github.com/mohammad-prb/provinces-and-cities-pypi.git"
