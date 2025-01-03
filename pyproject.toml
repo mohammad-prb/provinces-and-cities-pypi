@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "provinces-and-cities"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="Mohammad Pourbehzad", email="pspipm27@gmail.com" },
 ]
-description = "Package of countries provinces and cities"
+description = "Package of countries provinces and cities."
 keywords = ["provinces", "province", "cities", "city", "iran", "germany"]
 readme = "README.md"
 license = {file = "LICENSE"}
