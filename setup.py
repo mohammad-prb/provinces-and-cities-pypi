@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="provinces-and-cities",
-    version="1.0.1",
+    version="1.0.2",
     description="Package of countries provinces and cities.",
     url="https://github.com/mohammad-prb/provinces-and-cities-pypi",
     project_urls={
