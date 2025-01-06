@@ -9,44 +9,44 @@ If you use languages other than Python and need these lists, you can access the 
 
 ## Install
 ```bash
-pip install provinces_and_cities
+pip install provinces-and-cities
 ```
 
 ## How to Use
 ```python
-# import { Iran } from 'provinces-and-cities'
-# 
-# Iran.main    // all provinces and main cities
-# Iran.all     // all provinces and all cities
+from provinces_and_cities import Iran
+
+Iran.main    # all provinces and main cities
+Iran.all     # all provinces and all cities
 ```
 
 ### Examlpe of data
 ```python
-# Iran.main[7] = {
-#     "id": 8,
-#     "name": "تهران",
-#     "tel_prefix": "021",
-#     "cities": [
-#         "اسلامشهر",
-#         "بومهن",
-#         "پاكدشت",
-#         "تهران",
-#         "چهاردانگه",
-#         "دماوند",
-#         "رودهن",
-#         "ري",
-#         "شريف آباد",
-#         "شهر رباط كريم",
-#         "شهر شهريار",
-#         "فشم",
-#         "فيروزكوه",
-#         "قدس",
-#         "كهريزك",
-#         "لواسان بزرگ",
-#         "ملارد",
-#         "ورامين"
-#     ]
-# }
+Iran.main[7] = {
+    "id": 8,
+    "name": "تهران",
+    "tel_prefix": "021",
+    "cities": [
+        "اسلامشهر",
+        "بومهن",
+        "پاكدشت",
+        "تهران",
+        "چهاردانگه",
+        "دماوند",
+        "رودهن",
+        "ري",
+        "شريف آباد",
+        "شهر رباط كريم",
+        "شهر شهريار",
+        "فشم",
+        "فيروزكوه",
+        "قدس",
+        "كهريزك",
+        "لواسان بزرگ",
+        "ملارد",
+        "ورامين"
+    ]
+}
 ```
 
 ## Future Plans
