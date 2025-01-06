@@ -1,4 +1,3 @@
-from pathlib import Path
 import setuptools
 
 setuptools.setup(
@@ -24,6 +23,6 @@ setuptools.setup(
     python_requires=">=3.6",
     install_requires=[],
     packages=["provinces_and_cities"],
-    long_description=Path("README.md").read_text(),
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
 )
